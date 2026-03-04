@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #D49E8D;
+    padding: 25px;
+    text-align: center; 
+    color: white;  
+}
+nav a {
+    color: white;
+    text-decoration: solid;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, sans-serif;  
+}
+
+body{
+    background-color: #E4CEBE;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #D49E8D;
+    margin-top: 10px;
+    resize: vertical;
+    border-radius: 8px;
+    border-color: #D49E8D;
+}
+
+input[type=submit] {
+    background-color: #E4CEBE;
+    color: #621713;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #D49E8D;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #E4CEBE;  /* Body Background-colour */
+    padding: 10px;
+}
+
+.container h1 {
+   font-family: arial, sans-serif;
+   font-size: 45px;
+   margin-top: 10px;
+} 
+
+.container p {
+    font-family: arial, sans serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.column {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    padding: 2px;
+    margin-right: 600px;
+    margin-left: 0 3px;
+}
+
+footer {
+    background-color: #D49E8D;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
